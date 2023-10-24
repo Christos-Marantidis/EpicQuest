@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a2fc128f92fb64fb30d6554d5abdee, type: 3}
+  m_Name: Health potion
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 10
+  <Name>k__BackingField: Health Potion
+  <Description>k__BackingField: 'A strong mix of healing herbs. Gives +2 Health
+
+
+'
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 21663907c29a1214495377bdc24511e9, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: 4e000a780d9722244b4c105f0d99f7fe, type: 2}
+    value: 2
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: f6403cf67709d0b49af9f29afe66bb07, type: 3}
